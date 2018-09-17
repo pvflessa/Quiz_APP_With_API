@@ -1,0 +1,226 @@
+
+
+body {
+  font-family: 'Roboto Condensed', "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+  /* DARK PINK */
+  background: #f2395a;
+
+  /*TEAL*/
+  /*background: #00B3B4;*/
+
+  font-size: 20px;
+  line-height: 28px;
+  color: #323b40;
+  margin: 40px 0;
+  background-color: #2c3035 !important;
+}
+
+
+
+  .small small {
+      font-size: 3rem;
+      display: block;
+      color: #fff;
+      text-shadow: none;
+    }
+
+
+  .small {
+  font-family: 'Bubblegum Sans', cursive;
+    width: 60%;
+    max-width: 960px;
+    margin: 0 auto 60px;
+    transform: rotate(-3deg);
+    color: white;
+    text-align: left;
+    font-size: 5rem !important;
+    line-height: 5rem;
+    text-shadow:  0 1px 0 hsl(52,7%,20%),
+                  0 2px 0 hsl(52,7%,18%),
+                  0 3px 0 hsl(52,7%,16%),
+                  0 4px 0 hsl(52,7%,14%),
+                  0 5px 0 hsl(52,7%,12%),
+                  0 6px 0 hsl(52,7%,10%),
+                  0 7px 0 hsl(52,7%,8%),
+                  0 8px 0 hsl(52,7%,6%),
+
+                  0 0 5px rgba(0,0,0,.05),
+                  0 1px 3px rgba(0,0,0,.2),
+                  0 3px 5px rgba(0,0,0,.2),
+                  0 5px 10px rgba(0,0,0,.2),
+                  0 10px 10px rgba(0,0,0,.2),
+                  0 20px 20px rgba(0,0,0,.3);
+  }
+
+  input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+.button {
+  position: relative;
+	display: inline-block;
+	padding: 10px 30px;
+	text-align: center;
+	color: white;
+  font-size: 1rem;
+	text-shadow:-1px -1px 0 #2C7982;
+	background: #00B3B4;
+	border:1px solid #379AA4;
+
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+
+	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+	box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+}
+.button::before {
+  background:#fa90a3;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ef758b), to(#fa90a3));
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset, 0 1px 0 rgba(255, 255, 255, .5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset, 0 1px 0 rgba(255, 255, 255, .5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset, 0 1px 0 rgba(255, 255, 255, .5);
+
+  position: absolute;
+  content: "";
+  left: -15px;
+  right: -15px;
+  top: -14px;
+  bottom: -17px;
+  z-index: -1;
+}
+.button:active::before{
+  top: -18px;
+  bottom: -13px;
+
+}
+
+.button:hover {
+  background: #0bbfc0;
+
+}
+
+.button:focus {
+outline: 0;
+}
+
+
+
+.sandbox,
+.final-result,
+.info {
+  position: relative;
+  background: #e7eef1;
+  width: 60%;
+  max-width: 960px;
+  margin: 60px auto;
+  padding: 40px 40px 60px;
+  box-sizing: border-box;
+  border-radius: 2px;
+  box-shadow: 0 12px 0 -6px #47505b;
+}
+
+  .sandbox::before,
+  .final-result::before,
+  .info::before {
+    position: absolute;
+    display: block;
+    content: "";
+    border: solid 6px transparent;
+    border-right: solid 6px #47505b;
+    border-top-width: 0px;
+    background: none;
+    bottom: -6px;
+    left: -6px;
+  }
+
+  .sandbox::after,
+  .final-result::after,
+  .info::after {
+    position: absolute;
+    display: block;
+    content: "";
+    border: solid 6px transparent;
+    border-top: solid 6px #47505b;
+    border-bottom-width: 0px;
+    background: none;
+    right: 0;
+    bottom: -6px;
+  }
+
+  input[type=number], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+input[type=submit] {
+  position: relative;
+	display: inline-block;
+	padding: 10px 30px;
+	text-align: center;
+	color: white;
+  font-size: 1rem;
+	text-shadow:-1px -1px 0 #2C7982;
+	background: #00B3B4;
+	border:1px solid #379AA4;
+
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	border-radius:4px;
+
+	-webkit-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+	-moz-box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+	box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1) inset, 0 4px 0 #338A94, 0 4px 2px rgba(0, 0, 0, .5);
+}
+input[type=submit]::before {
+  background:#fa90a3;
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#ef758b), to(#fa90a3));
+
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset, 0 1px 0 rgba(255, 255, 255, .5);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset, 0 1px 0 rgba(255, 255, 255, .5);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .3) inset, 0 1px 0 rgba(255, 255, 255, .5);
+
+  position: absolute;
+  content: "";
+  left: -15px;
+  right: -15px;
+  top: -14px;
+  bottom: -17px;
+  z-index: -1;
+}
+input[type=submit]:active::before{
+  top: -18px;
+  bottom: -13px;
+}
+
+input[type=submit]:hover {
+  background: #0bbfc0;
+}
+
+.quizBody{
+  display: none;
+}
